@@ -81,7 +81,7 @@ let array = [];
 createNewArray();
 
 // To create new array input size of array
-function createNewArray(noOfBars = 60) {
+function createNewArray(noOfBars = 50) {
     // calling helper function to delete old bars from dom
     deleteChild();
 
