@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
 * {
 	padding: 0;
 	margin: 0;
@@ -13,11 +13,13 @@ body{
 	overflow-x: hidden;
     /* background: linear-gradient(180deg, #27063d, #3f063c); */
     /* background-image: url("../img/algobg.jpg"); */
-	background-color: black;
+	background-color: rgb(0, 0, 0);
 }
 a {
 	text-decoration: none;
-	color: whitesmoke;
+	color: rgb(236, 175, 8);
+	font-weight: bolder;
+	
 }
 hr{
 	color: greenyellow;
@@ -46,14 +48,14 @@ p {
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
-	color: black;
+	color:rgb(193, 202, 165);
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	text-align: center;
 }
 .section-title span {
-	color: rgb(12, 182, 77);
+	color: rgb(202, 142, 12);
 }
 
 
@@ -61,10 +63,10 @@ p {
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
-	color: rgb(238, 231, 231);
+	color: rgb(224, 233, 200);
 }
 .brand h1 span {
-	color: rgb(24, 8, 250);
+	color: rgb(248, 176, 8);
 }
 
 /* Header section */
@@ -78,8 +80,9 @@ p {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(0, 0, 0, 0.24);
+	background-color: rgba(2, 1, 1, 0.24);
 	transition: 0.3s ease background-color;
+	width: 100%;
 }
 #header .nav-bar {
 	display: flex;
@@ -198,9 +201,13 @@ p {
 #hero {
 	background-image: url(../img/bgimage.gif);
 	background-size: cover;
+	background-size: 5vh;
 	background-position:  center;
 	position: relative;
 	z-index: 1;
+}
+#header::after{
+	background-color: black;
 }
 #hero::after {
 	content: '';
@@ -279,6 +286,7 @@ p {
 #about .col-right {
 	width: 100%;
 }
+#about .col-right
 #about .col-right h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
@@ -287,13 +295,14 @@ p {
 }
 #about .col-right p {
 	margin-bottom: 20px;
+	color:whitesmoke;
 }
 
 #about .col-left .about-img {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	border: 10px solid rgb(26, 5, 83);
+	/* border: 10px solid rgb(26, 5, 83); */
 }
 #about .col-left .about-img::after {
 	content: '';
@@ -302,7 +311,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid rgb(73, 8, 250);
+	/* border: 7px solid rgb(73, 8, 250); */
 	z-index: -1;
 }
 /* End About Section */
@@ -343,7 +352,10 @@ p {
 #contact-form .content .right-side .topic-text{
   font-size: 23px;
   font-weight: 600;
-  color: rgba(255, 4, 4, 0.966);
+  color: rgba(181, 231, 15,0.899)
+}
+#contact-form .content .right-side  p{
+	color: whitesmoke;
 }
 #contact-form .right-side .input-box{
   height: 50px;
@@ -505,7 +517,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid rgb(250, 193, 8);
+		/* border: 10px solid rgb(250, 193, 8); */
 	}
 	#about .col-right {
 		text-align: left;
