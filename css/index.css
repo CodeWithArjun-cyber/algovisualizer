@@ -201,7 +201,7 @@ p {
 #hero {
 	background-image: url(../img/bgimage.gif);
 	background-size: cover;
-	background-size: 5vh;
+	background-size: 15vh;
 	background-position:  center;
 	position: relative;
 	z-index: 1;
